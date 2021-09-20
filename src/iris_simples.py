@@ -7,7 +7,7 @@ from keras.utils import np_utils
 import numpy as np
 from sklearn.metrics import confusion_matrix
 
-base = pd.read_csv('/Users/es19237/Desktop/Deep Learning/Classificacao Mais Classes/Files/iris.csv')
+base = pd.read_csv('./Files/iris.csv')
 
 previsores = base.iloc[:,0:4].values
 classe = base.iloc[:,4].values
