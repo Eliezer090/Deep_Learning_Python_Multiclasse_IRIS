@@ -7,7 +7,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import GridSearchCV
 
-base = pd.read_csv('/Users/es19237/Desktop/Deep Learning/Classificacao Mais Classes/Files/iris.csv')
+base = pd.read_csv('./Files/iris.csv')
 previsores = base.iloc[:, 0:4].values
 classe = base.iloc[:, 4].values
 
