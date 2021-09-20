@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 from keras.models import model_from_json
 
 #importa a base
-base = pd.read_csv('/Users/es19237/Desktop/Deep Learning/Classificacao Mais Classes/Files/iris.csv')
+base = pd.read_csv('./Files/iris.csv')
 #Separa os valores do que é esses valores
 previsores = base.iloc[:, 0:4].values
 classe = base.iloc[:, 4].values
